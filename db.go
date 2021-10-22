@@ -32,3 +32,16 @@ func ConnectDB() error {
 		Logger: logger.Default,
 	})
 	if err != nil {
+		panic("failed to connect database")
+	}
+
+	db.AutoMigrate(&Message{})
+
+	DB = db
+	log.Debug().Msg("database migrated")
+	return nil
+}
+
+// FindMessages finds the prevous users conversations from the telegrams conversation id
+func FindMessages(chatId string) ([]Message, error) {
+	var messages []Message
