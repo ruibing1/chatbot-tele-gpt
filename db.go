@@ -45,3 +45,13 @@ func ConnectDB() error {
 // FindMessages finds the prevous users conversations from the telegrams conversation id
 func FindMessages(chatId string) ([]Message, error) {
 	var messages []Message
+
+	err := DB.Where(&Message{
+		ChatID: chatId,
+	}).Find(&messages).Error
+
+	if err != nil {
+		return nil, err
+	}
+	return messages, nil
+}
