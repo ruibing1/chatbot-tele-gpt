@@ -55,3 +55,11 @@ func FindMessages(chatId string) ([]Message, error) {
 	}
 	return messages, nil
 }
+
+// CreateMessage creates a new chat
+func CreateMessage(msg Message) (*Message, error) {
+	if err := DB.Create(&msg).Error; err != nil {
+		return nil, err
+	}
+	return &msg, nil
+}
