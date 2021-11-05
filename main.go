@@ -9,4 +9,4 @@ import (
 	"time"
 
 	"github.com/go-telegram/bot"
-	"github.c
+	"github.com/go-telegram/bot
