@@ -12,4 +12,4 @@ import (
 	"github.com/go-telegram/bot/models"
 	"github.com/joho/godotenv"
 	"github.com/rakyll/openai-go"
-	"github.co
+	"github.com/rakyll/openai-g
