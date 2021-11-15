@@ -12,4 +12,5 @@ import (
 	"github.com/go-telegram/bot/models"
 	"github.com/joho/godotenv"
 	"github.com/rakyll/openai-go"
-	"github.com/rakyll/openai-g
+	"github.com/rakyll/openai-go/chat"
+	"gith
