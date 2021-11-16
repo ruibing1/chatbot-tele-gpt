@@ -14,4 +14,4 @@ import (
 	"github.com/rakyll/openai-go"
 	"github.com/rakyll/openai-go/chat"
 	"github.com/rs/zerolog"
-	"gith
+	"github.com/rs/zerolo
