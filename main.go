@@ -18,4 +18,5 @@ import (
 )
 
 var (
-	retainHistory 
+	retainHistory bool
+	promptName    =
