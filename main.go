@@ -19,4 +19,4 @@ import (
 
 var (
 	retainHistory bool
-	promptName    =
+	promptName    = "prompt.t
