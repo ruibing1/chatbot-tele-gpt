@@ -19,4 +19,7 @@ import (
 
 var (
 	retainHistory bool
-	promptName    = "prompt.t
+	promptName    = "prompt.txt"
+)
+
+func main() {
