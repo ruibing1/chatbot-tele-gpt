@@ -23,3 +23,4 @@ var (
 )
 
 func main() {
+	// setup lo
