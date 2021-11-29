@@ -24,4 +24,4 @@ var (
 
 func main() {
 	// setup logger
-	log.Logger = log.With(
+	log.Logger = log.With().Caller().Log
