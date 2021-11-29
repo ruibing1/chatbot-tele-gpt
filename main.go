@@ -23,4 +23,5 @@ var (
 )
 
 func main() {
-	// setup lo
+	// setup logger
+	log.L
