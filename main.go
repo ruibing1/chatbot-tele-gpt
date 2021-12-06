@@ -25,4 +25,4 @@ var (
 func main() {
 	// setup logger
 	log.Logger = log.With().Caller().Logger()
-	log.Logge
+	log.Logger = log.Output(z
