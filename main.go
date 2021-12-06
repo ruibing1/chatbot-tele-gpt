@@ -25,4 +25,4 @@ var (
 func main() {
 	// setup logger
 	log.Logger = log.With().Caller().Logger()
-	log.Logger = log.Output(zerolog.ConsoleWr
+	log.Logger = log.Output(zerolog.ConsoleWriter{Out
