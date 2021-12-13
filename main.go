@@ -29,4 +29,5 @@ func main() {
 
 	// Environment files
 	err := godotenv.Load()
-	if e
+	if err != nil {
+		log.Debu
