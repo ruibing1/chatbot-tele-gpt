@@ -28,4 +28,5 @@ func main() {
 	log.Logger = log.Output(zerolog.ConsoleWriter{Out: os.Stderr})
 
 	// Environment files
-	err := godotenv.Lo
+	err := godotenv.Load()
+	if e
