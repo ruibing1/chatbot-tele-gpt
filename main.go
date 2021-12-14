@@ -30,4 +30,7 @@ func main() {
 	// Environment files
 	err := godotenv.Load()
 	if err != nil {
-		log.Debug().Msg(err.Err
+		log.Debug().Msg(err.Error())
+	}
+
+	re
