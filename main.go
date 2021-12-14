@@ -33,4 +33,4 @@ func main() {
 		log.Debug().Msg(err.Error())
 	}
 
-	retainHisto
+	retainHistory = os.Getenv
