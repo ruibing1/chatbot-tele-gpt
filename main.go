@@ -34,3 +34,5 @@ func main() {
 	}
 
 	retainHistory = os.Getenv("RETAIN_HISTORY") == "true"
+
+	if err := ConnectDB(
