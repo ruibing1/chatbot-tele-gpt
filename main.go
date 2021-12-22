@@ -36,4 +36,4 @@ func main() {
 	retainHistory = os.Getenv("RETAIN_HISTORY") == "true"
 
 	if err := ConnectDB(); err != nil {
-	
+		log.Fatal().Msg
