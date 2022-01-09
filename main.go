@@ -37,3 +37,6 @@ func main() {
 
 	if err := ConnectDB(); err != nil {
 		log.Fatal().Msg(err.Error())
+	}
+
+	// start 
