@@ -40,4 +40,6 @@ func main() {
 	}
 
 	// start server
-	StartS
+	StartServer()
+}
+
