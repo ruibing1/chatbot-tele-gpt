@@ -39,4 +39,5 @@ func main() {
 		log.Fatal().Msg(err.Error())
 	}
 
-	// start 
+	// start server
+	StartS
