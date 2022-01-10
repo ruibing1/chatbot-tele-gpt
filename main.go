@@ -43,4 +43,4 @@ func main() {
 	StartServer()
 }
 
-// StartServer starts the tel
+// StartServer starts the telegram server
