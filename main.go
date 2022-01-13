@@ -44,4 +44,5 @@ func main() {
 }
 
 // StartServer starts the telegram server
-func StartServer(
+func StartServer() {
+	ctx, c
