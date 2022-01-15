@@ -48,4 +48,4 @@ func StartServer() {
 	ctx, cancel := signal.NotifyContext(context.Background(), os.Interrupt)
 	defer cancel()
 
-	opt
+	opts := []bot
