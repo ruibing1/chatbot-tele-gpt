@@ -45,4 +45,4 @@ func main() {
 
 // StartServer starts the telegram server
 func StartServer() {
-	ctx, cancel := signal.NotifyContex
+	ctx, cancel := signal.NotifyContext(context.Backgrou
