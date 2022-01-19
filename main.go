@@ -49,4 +49,4 @@ func StartServer() {
 	defer cancel()
 
 	opts := []bot.Option{
-		bot.WithDefault
+		bot.WithDefaultHandler(handler)
