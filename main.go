@@ -52,4 +52,4 @@ func StartServer() {
 		bot.WithDefaultHandler(handler),
 	}
 
-	b, err := b
+	b, err := bot.New(os.Getenv(
