@@ -52,4 +52,5 @@ func StartServer() {
 		bot.WithDefaultHandler(handler),
 	}
 
-	b, err := bot.New(os.Getenv("TELEGRAM_API_KEY"
+	b, err := bot.New(os.Getenv("TELEGRAM_API_KEY"), opts...)
+	if err !=
