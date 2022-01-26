@@ -55,3 +55,6 @@ func StartServer() {
 	b, err := bot.New(os.Getenv("TELEGRAM_API_KEY"), opts...)
 	if err != nil {
 		panic(err)
+	}
+
+	log.Deb
