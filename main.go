@@ -57,4 +57,4 @@ func StartServer() {
 		panic(err)
 	}
 
-	log.Deb
+	log.Debug().Msg("Telegram 
