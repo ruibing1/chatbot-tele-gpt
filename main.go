@@ -58,4 +58,7 @@ func StartServer() {
 	}
 
 	log.Debug().Msg("Telegram bot started!")
-	b.St
+	b.Start(ctx)
+}
+
+//
