@@ -57,4 +57,5 @@ func StartServer() {
 		panic(err)
 	}
 
-	log.Debug().Msg("Telegram 
+	log.Debug().Msg("Telegram bot started!")
+	b.St
