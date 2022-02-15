@@ -61,4 +61,4 @@ func StartServer() {
 	b.Start(ctx)
 }
 
-// SendToChatGP
+// SendToChatGPT send a messa
