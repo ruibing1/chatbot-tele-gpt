@@ -62,4 +62,4 @@ func StartServer() {
 }
 
 // SendToChatGPT send a message to chatgpt
-func SendToChatGPT(chatId, 
+func SendToChatGPT(chatId, textMsg string) 
