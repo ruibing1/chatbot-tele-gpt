@@ -64,4 +64,4 @@ func StartServer() {
 // SendToChatGPT send a message to chatgpt
 func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	var (
-		c
+		ctx = contex
