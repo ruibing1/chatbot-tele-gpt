@@ -65,4 +65,4 @@ func StartServer() {
 func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	var (
 		ctx = context.Background()
-		s   = o
+		s   = openai.NewSessi
