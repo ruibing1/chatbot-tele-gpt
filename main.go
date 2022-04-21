@@ -64,4 +64,5 @@ func StartServer() {
 // SendToChatGPT send a message to chatgpt
 func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	var (
-		ctx = context.Backgroun
+		ctx = context.Background()
+		s   = o
