@@ -67,4 +67,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		ctx = context.Background()
 		s   = openai.NewSession(os.Getenv("OPENAI_TOKEN"))
 
-		// messag
+		// messages that will
