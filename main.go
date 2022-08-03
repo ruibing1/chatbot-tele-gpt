@@ -68,4 +68,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		s   = openai.NewSession(os.Getenv("OPENAI_TOKEN"))
 
 		// messages that will be sent to chatgpt
-		gptMsg
+		gptMsgs = make([]*c
