@@ -71,4 +71,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		gptMsgs = make([]*chat.Message, 0)
 	)
 
-	// check i
+	// check if the user ha
