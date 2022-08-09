@@ -71,4 +71,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		gptMsgs = make([]*chat.Message, 0)
 	)
 
-	// check if the user ha
+	// check if the user has a previous c
