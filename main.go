@@ -71,4 +71,5 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		gptMsgs = make([]*chat.Message, 0)
 	)
 
-	// check if the user has a previous c
+	// check if the user has a previous conversation
+	pr
