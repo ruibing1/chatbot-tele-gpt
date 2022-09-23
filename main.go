@@ -74,4 +74,7 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	// check if the user has a previous conversation
 	prevMessages, err := FindMessages(chatId)
 	if err != nil {
-		log.Err
+		log.Err(err)
+	}
+
+	// get 
