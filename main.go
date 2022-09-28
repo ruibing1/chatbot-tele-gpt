@@ -77,4 +77,5 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		log.Err(err)
 	}
 
-	// get the sys
+	// get the systems prompt
+	
