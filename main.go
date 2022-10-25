@@ -78,4 +78,6 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	}
 
 	// get the systems prompt
-	prmptB, _ := os.ReadFile(prom
+	prmptB, _ := os.ReadFile(promptName)
+
+	//
