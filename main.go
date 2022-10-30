@@ -80,4 +80,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	// get the systems prompt
 	prmptB, _ := os.ReadFile(promptName)
 
-	// add system prompt if user is init
+	// add system prompt if user is initially star
