@@ -81,4 +81,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	prmptB, _ := os.ReadFile(promptName)
 
 	// add system prompt if user is initially starting out the conversation
-	if len(pre
+	if len(prevMessages) 
