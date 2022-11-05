@@ -82,4 +82,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 
 	// add system prompt if user is initially starting out the conversation
 	if len(prevMessages) == 0 {
-		// create
+		// create & add the sys
