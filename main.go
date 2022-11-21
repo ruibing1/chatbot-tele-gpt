@@ -84,4 +84,5 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	if len(prevMessages) == 0 {
 		// create & add the systems prompt first
 		log.Debug().Msg("added system prompt because its a first time user")
-		gptMsgs = append(gptMsgs, &ch
+		gptMsgs = append(gptMsgs, &chat.Message{
+			Role:
