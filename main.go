@@ -89,4 +89,5 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 			Content: string(prmptB),
 		})
 
-	} e
+	} else {
+		// if we'
