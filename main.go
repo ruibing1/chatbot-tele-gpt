@@ -90,4 +90,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		})
 
 	} else {
-		// if we'
+		// if we're retaining
