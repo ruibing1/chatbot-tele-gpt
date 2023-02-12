@@ -92,4 +92,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	} else {
 		// if we're retaining history
 		if retainHistory {
-			// add the whole previous users conversation + current
+			// add the whole previous users conversation + current text message and
