@@ -95,4 +95,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 			// add the whole previous users conversation + current text message and send to chatgpt
 			// this may include the previous prompt from the conversation
 			for _, prevMsg := range prevMessages {
-				gptMsgs
+				gptMsgs = append(gptMsg
