@@ -96,4 +96,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 			// this may include the previous prompt from the conversation
 			for _, prevMsg := range prevMessages {
 				gptMsgs = append(gptMsgs, &chat.Message{
-				
+					Role:   
