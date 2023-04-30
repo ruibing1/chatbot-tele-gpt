@@ -97,4 +97,7 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 			for _, prevMsg := range prevMessages {
 				gptMsgs = append(gptMsgs, &chat.Message{
 					Role:    prevMsg.Role,
-					Content: prevMsg.Content
+					Content: prevMsg.Content,
+				})
+			}
+		} else
