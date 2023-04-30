@@ -100,4 +100,5 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 					Content: prevMsg.Content,
 				})
 			}
-		} else
+		} else {
+			// add only the
