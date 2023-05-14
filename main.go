@@ -101,4 +101,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 				})
 			}
 		} else {
-			// add only the
+			// add only the system prompt to
