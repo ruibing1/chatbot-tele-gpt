@@ -102,4 +102,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 			}
 		} else {
 			// add only the system prompt to gpt
-			gptM
+			gptMsgs = append(gp
