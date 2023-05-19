@@ -102,4 +102,5 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 			}
 		} else {
 			// add only the system prompt to gpt
-			gptMsgs = append(gptMsgs, &chat.
+			gptMsgs = append(gptMsgs, &chat.Message{
+				Rol
