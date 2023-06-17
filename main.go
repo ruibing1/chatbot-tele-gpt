@@ -109,4 +109,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		}
 	}
 
-	
+	// add this current mess
