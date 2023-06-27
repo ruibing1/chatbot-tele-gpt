@@ -115,4 +115,5 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		Content: textMsg,
 	})
 
-	// proce
+	// process request
+	client := cha
