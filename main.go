@@ -112,4 +112,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	// add this current message
 	gptMsgs = append(gptMsgs, &chat.Message{
 		Role:    "user",
-		Content:
+		Content: textMsg,
