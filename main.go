@@ -117,4 +117,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 
 	// process request
 	client := chat.NewClient(s, "gpt-3.5-turbo-0301")
-	resp, err := c
+	resp, err := client.CreateCom
