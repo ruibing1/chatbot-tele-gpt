@@ -121,3 +121,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		Messages: gptMsgs,
 	})
 	if err != nil {
+		log.Error().Msgf("F
