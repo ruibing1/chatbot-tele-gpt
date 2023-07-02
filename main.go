@@ -121,4 +121,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		Messages: gptMsgs,
 	})
 	if err != nil {
-		log.Error().Msgf("F
+		log.Error().Msgf("Failed to comp
