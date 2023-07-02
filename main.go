@@ -118,4 +118,6 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	// process request
 	client := chat.NewClient(s, "gpt-3.5-turbo-0301")
 	resp, err := client.CreateCompletion(ctx, &chat.CreateCompletionParams{
-		Messages: gptM
+		Messages: gptMsgs,
+	})
+	if 
