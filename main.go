@@ -120,4 +120,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	resp, err := client.CreateCompletion(ctx, &chat.CreateCompletionParams{
 		Messages: gptMsgs,
 	})
-	if 
+	if err != nil {
