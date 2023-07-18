@@ -122,4 +122,7 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	})
 	if err != nil {
 		log.Error().Msgf("Failed to complete: %v", err)
-		return ni
+		return nil
+	}
+
+	// save
