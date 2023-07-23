@@ -125,4 +125,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		return nil
 	}
 
-	// save the new prompt + 
+	// save the new prompt + current text 
