@@ -127,3 +127,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 
 	// save the new prompt + current text to DB
 	if len(prevMessages) == 0 {
+		for 
