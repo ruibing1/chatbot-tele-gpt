@@ -129,4 +129,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	if len(prevMessages) == 0 {
 		for _, gptMsg := range gptMsgs {
 			_, err := CreateMessage(Message{
-			
+				ChatID: 
