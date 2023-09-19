@@ -135,4 +135,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 
 				// metrics for this single chat session
 				PromptTokens:     resp.Usage.PromptTokens,
-				CompletionTokens: res
+				CompletionTokens: resp.Usage.Complet
