@@ -141,3 +141,6 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 			if err != nil {
 				log.Error().Msgf("unable to save message: %v", err)
 			}
+		}
+	} else {
+		// s
