@@ -143,4 +143,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 			}
 		}
 	} else {
-		// s
+		// save the cu
