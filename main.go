@@ -144,4 +144,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		}
 	} else {
 		// save the current content
-		_, err := Crea
+		_, err := CreateMessage(Mes
