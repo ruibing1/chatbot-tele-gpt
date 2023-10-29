@@ -149,4 +149,5 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 			Role:    "user",
 			Content: textMsg,
 
-			// metrics for this single
+			// metrics for this single chat session
+			
