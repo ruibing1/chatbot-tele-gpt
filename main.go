@@ -156,3 +156,7 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		})
 		if err != nil {
 			log.Error().Msgf("unable to current message: %v", err)
+		}
+	}
+
+	// sa
