@@ -159,4 +159,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		}
 	}
 
-	// sa
+	// save these rep
