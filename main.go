@@ -160,4 +160,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	}
 
 	// save these reply responses
-	for _, choice := range
+	for _, choice := range resp.Choices
