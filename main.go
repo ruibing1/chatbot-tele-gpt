@@ -163,4 +163,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	for _, choice := range resp.Choices {
 		_, err := CreateMessage(Message{
 			ChatID:  chatId,
-			Role:    c
+			Role:    choice.Message.R
