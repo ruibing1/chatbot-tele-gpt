@@ -166,4 +166,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 			Role:    choice.Message.Role,
 			Content: choice.Message.Content,
 
-			// metric
+			// metrics for this single
