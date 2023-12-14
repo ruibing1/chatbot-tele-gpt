@@ -170,3 +170,5 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 			PromptTokens:     resp.Usage.PromptTokens,
 			CompletionTokens: resp.Usage.CompletionTokens,
 			TotalTokens:      resp.Usage.TotalTokens,
+		})
+		if err !
