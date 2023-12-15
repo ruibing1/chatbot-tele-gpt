@@ -172,4 +172,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 			TotalTokens:      resp.Usage.TotalTokens,
 		})
 		if err != nil {
-			log.
+			log.Error().Msgf("
