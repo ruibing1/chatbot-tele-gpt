@@ -177,4 +177,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	}
 
 	log.Info().
-		Int("T
+		Int("TotalTokens", resp.
