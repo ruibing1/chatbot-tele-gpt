@@ -176,4 +176,5 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		}
 	}
 
-	log.Info
+	log.Info().
+		Int("T
