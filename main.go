@@ -182,4 +182,7 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 		Int("PromptTokens", resp.Usage.PromptTokens).
 		Msg("usage")
 
-	return res
+	return resp.Choices
+}
+
+// hand
