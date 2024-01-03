@@ -185,4 +185,5 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 	return resp.Choices
 }
 
-// hand
+// handler
+func h
