@@ -186,4 +186,4 @@ func SendToChatGPT(chatId, textMsg string) []*chat.Choice {
 }
 
 // handler
-func handler(ctx context.Context,
+func handler(ctx context.Context, b *bot.Bo
