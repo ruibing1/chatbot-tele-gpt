@@ -190,4 +190,4 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 	// Initialize random seed
 	rand.Seed(time.Now().UnixNano())
 
-	out
+	outgoingMsg := u
