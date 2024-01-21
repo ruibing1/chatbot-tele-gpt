@@ -191,3 +191,4 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 	rand.Seed(time.Now().UnixNano())
 
 	outgoingMsg := update.Message.Text
+	chatId := updat
