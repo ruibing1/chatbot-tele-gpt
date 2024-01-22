@@ -192,4 +192,4 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 
 	outgoingMsg := update.Message.Text
 	chatId := update.Message.Chat.ID
-	log.Debug().
+	log.Debug().Msg(outgoingM
