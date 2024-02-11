@@ -195,4 +195,4 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 	log.Debug().Msg(outgoingMsg)
 
 	// convert number to string
-	chatIdStr := strcon
+	chatIdStr := strconv.Itoa(int(chatId))
