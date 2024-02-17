@@ -197,4 +197,6 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 	// convert number to string
 	chatIdStr := strconv.Itoa(int(chatId))
 	chatResp := SendToChatGPT(chatIdStr, outgoingMsg)
-	if chatResp == nil 
+	if chatResp == nil {
+
+		// Define a
