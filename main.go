@@ -200,3 +200,4 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 	if chatResp == nil {
 
 		// Define an array of responses
+		responses
