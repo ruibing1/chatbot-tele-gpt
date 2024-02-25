@@ -201,4 +201,4 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 
 		// Define an array of responses
 		responses := []string{
-			"Sorry, there seems to
+			"Sorry, there seems to be a t
