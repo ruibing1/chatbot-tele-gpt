@@ -202,4 +202,5 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 		// Define an array of responses
 		responses := []string{
 			"Sorry, there seems to be a temporary issue. I'll keep trying and let you know as soon as it's back online.",
-			"Hmmm, something's not quite right. I'm on the case and will update you when it's working again.
+			"Hmmm, something's not quite right. I'm on the case and will update you when it's working again.",
+			"Looks like I'
