@@ -206,4 +206,4 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 			"Looks like I'm having a bit of a moment. I'm keeping an eye on it and will let you know when it's back up.",
 			"Whoops, I seem to be down at the moment. I'll do my best to reconnect and keep you posted.",
 			"That's bad, I can't seem to reach the destination endpoint. But I'll get back to you when I'm online.",
-			"Oh no, I'm dow
+			"Oh no, I'm down. I'll keep tryi
