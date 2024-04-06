@@ -208,4 +208,4 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 			"That's bad, I can't seem to reach the destination endpoint. But I'll get back to you when I'm online.",
 			"Oh no, I'm down. I'll keep trying and notify you when I'm back online.",
 		}
-		rand
+		randIndex := rand.In
