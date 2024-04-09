@@ -212,4 +212,4 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 
 		b.SendMessage(ctx, &bot.SendMessageParams{
 			ChatID: chatId,
-			Te
+			Text:   respons
