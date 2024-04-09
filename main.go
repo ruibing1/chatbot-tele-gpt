@@ -210,4 +210,5 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 		}
 		randIndex := rand.Intn(len(responses))
 
-		b.SendMessage(ctx, &bot.SendMessagePa
+		b.SendMessage(ctx, &bot.SendMessageParams{
+			Ch
