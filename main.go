@@ -215,3 +215,6 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 			Text:   responses[randIndex],
 		})
 		return
+	}
+
+	for _, 
