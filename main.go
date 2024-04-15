@@ -218,4 +218,5 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 	}
 
 	for _, choice := range chatResp {
-		incomingMsg := choice.Mes
+		incomingMsg := choice.Message
+		log.Pr
