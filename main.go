@@ -219,4 +219,4 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 
 	for _, choice := range chatResp {
 		incomingMsg := choice.Message
-		log.Printf("r
+		log.Printf("role=%q, content=
