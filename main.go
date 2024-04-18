@@ -222,4 +222,5 @@ func handler(ctx context.Context, b *bot.Bot, update *models.Update) {
 		log.Printf("role=%q, content=%q", incomingMsg.Role, incomingMsg.Content)
 
 		b.SendMessage(ctx, &bot.SendMessageParams{
-			ChatID: ch
+			ChatID: chatId,
+			T
