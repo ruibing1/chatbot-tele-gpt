@@ -18,3 +18,14 @@ To use the bot, create a bot on Telegram via [BotFather framework](https://t.me/
 
 A sample `.env` file
 ```.env
+TELEGRAM_API_KEY=""
+OPENAI_TOKEN=""
+RETAIN_HISTORY="false"
+```
+`RETAIN_HISTORY="true"` includes past conversations with current text as seen [here](https://platform.openai.com/docs/guides/chat/introduction). But when false, it sends only the prompt and current user's text, reducing the tokens sent per request.
+
+You should create a `prompt.txt` or rename the example file
+```sh
+$ mv prompt.example.txt prompt.txt
+```
+This helps customize the bot's responses.
