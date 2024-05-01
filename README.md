@@ -29,3 +29,23 @@ You should create a `prompt.txt` or rename the example file
 $ mv prompt.example.txt prompt.txt
 ```
 This helps customize the bot's responses.
+
+## Example chat conversation
+![Example Image](./screenshots/scrnsht1.png "A sample conversation")
+
+## Installation
+To install, follow these steps:
+
+```sh
+git clone github.com/ruibing1/chatbot-tele-gpt.git
+```
+Then, navigate to the project directory:
+```sh
+cd chatbot-tele-gpt
+```
+Finally, build:
+```sh
+go build -o /opt/chatbot-tele-gpt
+```
+
+## How to contribute
