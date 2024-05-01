@@ -49,3 +49,17 @@ go build -o /opt/chatbot-tele-gpt
 ```
 
 ## How to contribute
+To contribute, follow these steps:
+
+- Fork the repository.
+- Create a new branch (git checkout -b <branch-name>).
+- Make and commit your changes (git commit -am "<commit-message>").
+- Push to the branch (git push origin <branch-name>).
+- Open a new PR
+
+## License
+Project is under the MIT License. View the LICENSE file for the specifics
+
+## Useful links
+- [Go Documentation](https://golang.org/doc/)
+- [Telegram Bot API](https://core.telegram.org/bots/api)
